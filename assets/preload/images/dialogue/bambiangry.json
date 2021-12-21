@@ -1,11 +1,11 @@
 {
 	"position": [
-		0,
-		0
+		60,
+		-20
 	],
-	"dialogue_pos": "right",
-	"scale": 1,
-	"image": "BF_Dialogue",
+	"dialogue_pos": "left",
+	"scale": 0.85,
+	"image": "BambiAngry_Dialogue",
 	"animations": [
 		{
 			"idle_offsets": [

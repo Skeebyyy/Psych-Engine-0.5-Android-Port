@@ -1,11 +1,11 @@
 {
 	"position": [
-		0,
-		0
+		-80,
+		-40
 	],
 	"dialogue_pos": "right",
-	"scale": 1,
-	"image": "BF_Dialogue",
+	"scale": 0.95,
+	"image": "GFAnnoyed_Dialogue",
 	"animations": [
 		{
 			"idle_offsets": [

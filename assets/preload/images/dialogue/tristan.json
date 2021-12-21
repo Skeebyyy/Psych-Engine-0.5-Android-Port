@@ -1,11 +1,11 @@
 {
 	"position": [
-		0,
-		0
+		60,
+		-40
 	],
-	"dialogue_pos": "right",
+	"dialogue_pos": "left",
 	"scale": 1,
-	"image": "BF_Dialogue",
+	"image": "Tristan_Dialogue",
 	"animations": [
 		{
 			"idle_offsets": [
