@@ -898,17 +898,10 @@ class PlayState extends MusicBeatState
 		var splash:NoteSplash = new NoteSplash(100, 100, 0);
 		grpNoteSplashes.add(splash);
 		splash.alpha = 0.0;
-        opponentStrums = new FlxTypedGroup<StrumNote>();
-        playerStrums = new FlxTypedGroup<StrumNote>();        
-        
-        var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 20,0,("Port by Skeeby "), 24);
-        creditTxt.scrollFactor.set();
-        creditTxt.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-        creditTxt.borderColor = FlxColor.BLACK;
-        creditTxt.borderSize = 3;
-        creditTxt.borderStyle = FlxTextBorderStyle.OUTLINE;
-        add(creditTxt);
-     
+
+		opponentStrums = new FlxTypedGroup<StrumNote>();
+		playerStrums = new FlxTypedGroup<StrumNote>();
+
 		// startCountdown();
 
 		generateSong(SONG.song);
